@@ -14,6 +14,27 @@ body {
     overflow-x: scroll;
 }
 
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 900px;
+    background-size: cover;
+    
+    background-position:center;
+	margin-left: auto; 
+	margin-right: auto;
+    margin-top: 15px;
+    padding: 20px 30px;
+    position: absolute;
+    z-index: 99;
+    opacity: .85;
+}
 
 .card {
     display: flex;
